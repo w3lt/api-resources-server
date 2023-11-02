@@ -1,5 +1,5 @@
-import { Song } from "./song";
-import { Void } from "./void";
+import Song from "./song";
+import Void from "./void";
 
 class Album implements Void {
     constructor(private id: number) {};
@@ -25,4 +25,4 @@ class Album implements Void {
     }
 }
 
-export { Album };
+export default Album;

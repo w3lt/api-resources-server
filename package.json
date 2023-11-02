@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/riverlis/api-resources-server#readme",
   "dependencies": {
+    "jsonwebtoken": "^9.0.2",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.20",
+    "@types/jsonwebtoken": "^9.0.4",
     "@types/mysql": "^2.15.23"
   }
 }

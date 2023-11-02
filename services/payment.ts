@@ -1,4 +1,4 @@
-import { Void } from "./void";
+import Void from "./void";
 
 class Payment implements Void {
     constructor(private id: number) {};
@@ -14,4 +14,4 @@ class Payment implements Void {
     }
 }
 
-export { Payment };
+export default Payment;

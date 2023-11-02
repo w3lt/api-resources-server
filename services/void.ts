@@ -17,4 +17,4 @@ interface Void {
     set(field: string, value: any): boolean;
 }
 
-export { Void };
+export default Void;

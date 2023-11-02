@@ -1,4 +1,4 @@
-import { Void } from "./void";
+import Void from "./void";
 
 class Song implements Void {
     constructor(private id: number) {};
@@ -14,4 +14,4 @@ class Song implements Void {
     }
 }
 
-export { Song };
+export default Song;

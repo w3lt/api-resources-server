@@ -7,4 +7,4 @@ class Transaction {
     }
 }
 
-export { Transaction };
+export default Transaction;
